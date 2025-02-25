@@ -1,9 +1,27 @@
 header {
     background-color: #07f9a2;/*cor de fundo do cabeçalho*/
-    color: black;
-    text-align: center;/*centralizar texto*/
     padding: 20px; /*almentar faixa do cabeçalho*/
-   
+  display: flex; /*responsavel torna os intens flex e deixar lado a lado */
+  justify-content: center;/*organizaçao  dos conteudos dentro do cabeçalho */
+  gap: 20px; /*serve para da espaço entre h1 e img */
+  align-items: center;/*alinhamento de  itens */
+} 
+
+
+ header h1 { /*estilizando o titulo*/
+    color: rgb(14, 2, 2);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;/*fotes do cabeçalho*/
+    font-size: 30px; /*amentar o tamanho do texto*/
+    
+
+ }
+
+ 
+header img { /*estilizando a imagem */
+    width: 70px; /*largura da logo*/
+
+
 }
 
 
@@ -12,30 +30,41 @@ header {
    /*tamanho da faixa de sessão*/
   background-color: #09c184;
   /*cor de fundo da sessão 01*/
+  display: flex;/*deixando flex /lado a lado */
+  justify-content: center;/*justificando conteudo ao centro */
+  align-items: center; /*alinhando os intes ao centro*/
+  gap: 20px;/* espaço/respiro/entre os itens*/
   
-  
+ 
  
 }
 
-.joao02 {
+.joao02  {
     padding: 150px;
     /*tamanho da faixa de sessão*/
     background-color: #0a8967;
     /*cor de fundo da sessão 02*/
-    
+ 
 }
+.joao02 i {
+    font-size: 50px;/*tamanho da fonte ou texto */
+    color: rgb(136, 136, 22);/*cor do texto*/
+}
+
 
 .joao03 {
     padding: 150px;
     /*tamanho da faixa de sessão*/
-    background-color: #0c5149;
-    /*cor de fundo da sessão 03 */
+   background-image: url(imagem/coffee-5589036_1280.jpg); /*url: caminho da imagem */
+    /*cor de fundo ou imagem  da sessão 03 */
+    background-position: center;/*posiçao da imagem */
+    background-size: cover;/* preenchimento total da imagem */
 
 }
 button {
-    color: rgb(118, 230, 230);
-    font-size: 20px;
-    background-color: #0d192b;
+    color: rgb(118, 230, 230);/*cor do botão*/
+    font-size: 20px;/*tamanho do button*/
+    background-color: #0d192b;/*cor de fundo */
 }
 
 footer {
@@ -47,5 +76,5 @@ footer {
     /*centralizar texto */
     color: aliceblue;
     /*cor da letra do cabeçalho*/
-    font-size: 30px;
+    font-size: 30px;/*tamanho da fonte ou texto */
 }
