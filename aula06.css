@@ -48,23 +48,28 @@ header img { /*estilizando a imagem */
 }
 .joao02 i {
     font-size: 50px;/*tamanho da fonte ou texto */
-    color: rgb(136, 136, 22);/*cor do texto*/
+    color: rgb(17, 3, 138);/*cor do texto*/
 }
 
 
 .joao03 {
     padding: 150px;
     /*tamanho da faixa de sessão*/
-   background-image: url(imagem/coffee-5589036_1280.jpg); /*url: caminho da imagem */
+   background-image: url(imagem/coffee-4480463_1280.jpg); /*url: caminho da imagem */
     /*cor de fundo ou imagem  da sessão 03 */
     background-position: center;/*posiçao da imagem */
     background-size: cover;/* preenchimento total da imagem */
+    display: flex; /*tornando os intens flex*/
+    justify-content: center; /*aliamento do botao*/
 
 }
 button {
-    color: rgb(118, 230, 230);/*cor do botão*/
-    font-size: 20px;/*tamanho do button*/
-    background-color: #0d192b;/*cor de fundo */
+    color: rgb(41, 235, 235);/*cor do botão*/
+   border-radius: 5px;
+    background-color: #04298f;/*cor de fundo */
+    width: 150px;
+    padding: 10px;
+    
 }
 
 footer {
@@ -77,4 +82,9 @@ footer {
     color: aliceblue;
     /*cor da letra do cabeçalho*/
     font-size: 30px;/*tamanho da fonte ou texto */
+  
+}
+footer i {
+    font-size: 40px;
+   
 }
