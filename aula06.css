@@ -24,6 +24,7 @@ header img { /*estilizando a imagem */
 
 }
 
+header nav u
 
 .joao01  {
    padding: 150px; 
@@ -42,7 +43,7 @@ header img { /*estilizando a imagem */
 .joao02  {
     padding: 150px;
     /*tamanho da faixa de sessão*/
-    background-color: #0a8967;
+    background-color: #fe0557;
     /*cor de fundo da sessão 02*/
  
 }
@@ -82,9 +83,10 @@ footer {
     color: aliceblue;
     /*cor da letra do cabeçalho*/
     font-size: 30px;/*tamanho da fonte ou texto */
-  
+  gap: 20px;
 }
 footer i {
     font-size: 40px;
+   
    
 }

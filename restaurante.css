@@ -1,0 +1,103 @@
+header {
+    background: #efeecc;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+
+}
+header h1 {
+    color: black;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+
+
+
+ 
+header img {
+    width: 70px;
+}
+header nav li {
+    font-size: 20px;
+   
+    
+}
+
+.joao1 {
+    padding: 150px; 
+    /*tamanho da faixa de sessão*/
+   background-color:#fe8b05;
+   /*cor de fundo da sessão 01*/
+   display: flex;/*deixando flex /lado a lado */
+   justify-content: center;/*justificando conteudo ao centro */
+   align-items: center; /*alinhando os intes ao centro*/
+   gap: 20px;/* espaço/respiro/entre os itens*/
+}
+
+.joao2 {
+    padding: 150px;
+    /*tamanho da faixa de sessão*/
+    background-color: #0a8967;
+    /*cor de fundo da sessão 02*/
+    
+}
+.joao2  i{
+width:  10px;
+padding: 20px;
+font-size: 50px;
+}
+
+.joao3 {
+    padding: 150px;
+    /*tamanho da faixa de sessão*/
+   background-image: url(imagem/food-4602924_1280.jpg); /*url: caminho da imagem */
+    /*cor de fundo ou imagem  da sessão 03 */
+    background-position: center;/*posiçao da imagem */
+    background-size: cover;/* preenchimento total da imagem */
+    display: flex; /*tornando os intens flex*/
+    justify-content: center; /*aliamento do botao*/
+
+
+
+}
+
+.joao3 p  {
+color: aqua;
+font-size: 20px;
+text-align: left;
+background-position: left;
+
+}
+span {
+color: rgb(12, 19, 232);
+font-size: 20px;
+}
+
+
+button {
+    color: rgb(41, 235, 235);/*cor do botão*/
+   border-radius: 5px;
+    background-color: #04298f;/*cor de fundo */
+    width: 150px;
+    padding: 10px;
+}
+
+footer {
+    background-color: #0d192b;
+    /*cor de fundo do rodapé*/
+    padding: 40px;
+    /*tamanho da faixa do rodapé */
+    text-align: center;
+    /*centralizar texto */
+    color: aliceblue;
+    /*cor da letra do cabeçalho*/
+    font-size: 30px;/*tamanho da fonte ou texto */
+  gap: 20px;
+}
+
+footer i {
+    font-style: 40px;
+}
