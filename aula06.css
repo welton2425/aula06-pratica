@@ -1,5 +1,5 @@
 header {
-    background-color: #07f9a2;/*cor de fundo do cabeçalho*/
+    background-color: #db3026;/*cor de fundo do cabeçalho*/
     padding: 20px; /*almentar faixa do cabeçalho*/
   display: flex; /*responsavel torna os intens flex e deixar lado a lado */
   justify-content: center;/*organizaçao  dos conteudos dentro do cabeçalho */
@@ -9,54 +9,72 @@ header {
 
 
  header h1 { /*estilizando o titulo*/
-    color: rgb(14, 2, 2);
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;/*fotes do cabeçalho*/
-    font-size: 30px; /*amentar o tamanho do texto*/
+    color: rgb(9, 10, 1);/*cor da letra do cabeçalho*/
+    text-align: center;/*centralizar texto*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;/*fontes do cabeçalho*/
+    font-size: 50px; /*amentar o tamanho do texto*/
     
 
  }
+ 
+ 
 
  
 header img { /*estilizando a imagem */
-    width: 70px; /*largura da logo*/
+    width: 100px; /*largura da logo*/
+
 
 
 }
 
-header nav u
+header nav li {
+    font-size: 20px;
+    width: 30px;
+}
 
 .joao01  {
    padding: 150px; 
    /*tamanho da faixa de sessão*/
-  background-color: #09c184;
+  background-color:#e88a25;
   /*cor de fundo da sessão 01*/
   display: flex;/*deixando flex /lado a lado */
   justify-content: center;/*justificando conteudo ao centro */
   align-items: center; /*alinhando os intes ao centro*/
   gap: 20px;/* espaço/respiro/entre os itens*/
   
+  
  
  
+}
+ figcaption span {
+    color: #db3026;
+    font-size: 20px;
+    
+ }
+nav ul li a  {
+    color: rgb(14, 3, 114);/*cor da letras */
 }
 
 .joao02  {
-    padding: 150px;
+    padding: 50px;
     /*tamanho da faixa de sessão*/
-    background-color: #fe0557;
+    background-color:#f9e14b;
     /*cor de fundo da sessão 02*/
+    
  
 }
 .joao02 i {
-    font-size: 50px;/*tamanho da fonte ou texto */
-    color: rgb(17, 3, 138);/*cor do texto*/
+    width: 10px;/*largura da logo*/
+    padding: 20px;/*tamanho da faixa da sessão */
+    font-size: 50px; /*almentar o tamanho da fonte ou texto*/
 }
+   
 
 
 .joao03 {
     padding: 150px;
     /*tamanho da faixa de sessão*/
-   background-image: url(imagem/coffee-4480463_1280.jpg); /*url: caminho da imagem */
+   background-image: url(imagem/food-4602924_1280.jpg); /*url: caminho da imagem */
     /*cor de fundo ou imagem  da sessão 03 */
     background-position: center;/*posiçao da imagem */
     background-size: cover;/* preenchimento total da imagem */
@@ -64,12 +82,20 @@ header nav u
     justify-content: center; /*aliamento do botao*/
 
 }
+.joao03 p{
+    color: aqua;/* cor da leta */
+    font-style: 20px;/*tamanho da fonte ou texto */
+    text-align: center;/*centralizar texto*/
+    background-position: left;/*centralizar funto do site */
+}
 button {
-    color: rgb(41, 235, 235);/*cor do botão*/
-   border-radius: 5px;
-    background-color: #04298f;/*cor de fundo */
-    width: 150px;
-    padding: 10px;
+    color: rgb(62, 231, 231);/*cor do botão*/
+   border-radius: 5px;/*borda do botao */
+    background-color: #010816;/*cor de fundo */
+   width: 150px;/*largura da logo */
+   padding: 10px;/*tamanho da faixa */
+   font-style: 100px;/*almentar o tamanho do texto*/
+    
     
 }
 
@@ -86,7 +112,7 @@ footer {
   gap: 20px;
 }
 footer i {
-    font-size: 40px;
+    font-size: 40px;/*tamanho da fonte ou texto*/
    
    
 }
