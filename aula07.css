@@ -165,7 +165,10 @@ header h1 {
     background-attachment: fixed;
     /*fixação da imagem */
     justify-content: center;
+    /*justifando os conteudo ao centro */
     display: flex;
+    /*tornando os conteudo flex lado a lado */
+    /*deixando as div lado a lado */
 
 }
 
@@ -175,39 +178,51 @@ header h1 {
 .sabrina {
     /*estilizando as div/caixas (total 3)*/
     padding: 150px;
+    /*responssavel pelo preenchimento */
     background-color: rgb(0, 0, 0);
+    /*cor do fundo */
     display: flex;
+    /*tornando os conteudo flex lado a lado */
     /*deixando as div lado a lado */
     gap: 10px;
+    /*espaço dos conteudo */
     /*espaçamento entre as caixas */
     justify-content: space-evenly;
-    /*justificando conteudo */
+    /*justificando o  posicionamento das caixas  */
 
 }
 
 .sabrina div {
     width: 300px;
+    /*largura da caixas*/
     height: 300px;
+    /*altura das caixas */
     background-color: rgb(23, 27, 27);
+    /*cor de fundo das caixas */
     color: aliceblue;
+    /*cor das letras */
+    text-align: center;
+    /*estou alinhando o texto ao centro */
+    padding: 15px;
+    /*margem interna das caixas */
 }
 
 
 
 
 .enzo button {
-    padding: 20px;
+    padding: 20px;  /*responssavel pelo preenchimento */
     width: 150px;
-    background-color: rgba(0, 9, 12, 0.993);
-    color: rgb(6, 156, 202);
-    border-radius: 50px;
+    background-color: rgba(0, 9, 12, 0.993); /*cor de fundo das caixas */
+    color: rgb(6, 156, 202);/*cor da letra */
+    border-radius: 50px;/*borda do botao */
 
 
 }
 
 
 footer {
-    padding: 20px;
+    padding: 20px;/*responssavel pelo preenchimento */
     background-color: black;
     /*cor de fundo */
     text-align: center;
@@ -228,3 +243,31 @@ footer i {
     font-size: 20px;
     /*tamanho do icone*/
 }
+ 
+ .div01 i {
+  color: red;/*cor do iconen */
+ }
+
+ .div01 p {
+font-size: 20px;
+font-weight: 700;
+line-height: 30px;
+ }
+
+
+ .div02 {/*estamos alterando a segunda caixa/div*/
+    background-image: url(img/gibi.jpg);/*inserindo img*/
+    background-size: cover;/*aplicando o preenchimento total */
+ }
+
+ .div03 img {
+    width: 120px;
+    height: 120px;
+ }
+
+ .div03 p  {
+    font-size: 20px;
+    color: aliceblue;
+    font-weight: 700;
+    line-height: 25px;
+ }
