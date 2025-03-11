@@ -1,27 +1,63 @@
-
-
 /*estilizando o heder*/
 header {
-    padding: 20px;/*responsavel pelo preenchimento e tamanho */
-    background-color: #e81e4a;/* cor de fundo */
-    display: flex;/*tornando os intens flex lado a lado */
-    justify-content: center;/*justificando o conteudo ao centro*/
-    gap: 25px;/*espaço entre os elementos*/
-    align-items: center;/*responsavel por alinha os intens */
+    padding: 20px;
+    /*responsavel pelo preenchimento e tamanho */
+    background-color: #8d1a1a;
+    /* cor de fundo */
+    display: flex;
+    /*tornando os intens flex lado a lado */
+    justify-content: center;
+    /*justificando o conteudo ao centro*/
+    gap: 25px;
+    /*espaço entre os elementos*/
+    align-items: center;
+    /*responsavel por alinha os intens */
 }
 
 header img {
-   
-   width: 100px;/*tamanho da imagem */
+
+    width: 100px;
+    /*tamanho da imagem */
 
 }
 
 header h1 {
-    color: rgb(15, 15, 2);/*cor da letra */
-    font-size: 50px;/*tamanho da letra */
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;/*tipo da fonte*/
+    color: black;
+    /*cor da letra */
+    font-size: 50px;
+    /*tamanho da letra */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /*tipo da fonte*/
 
 }
+
+.listra-menu ul {
+    /*ALTERAÇAO DA LISTRA NAO ORDENADA (elemnto pai )*/
+    display: flex;
+    /*TORNANDO AS ( LI )FLEX/ LADO A LADO */
+    justify-content: center;
+    /*DEIXANDO ELAS CENTRALIZADAS */
+    gap: 20px;
+    /*ESPAÇO ENTRE AS ( LI ) */
+}
+
+.listra-menu ul li {
+    /* alteração da listra (li)  (elemnto filho)*/
+    list-style: none;
+    /*removendo o estilo de listra aplicada por padrão*/
+
+}
+
+.listra-menu ul li a {
+
+    text-decoration: none;
+    /*remoçao do sumbliado (decoração de texto )*/
+    color: black;
+    /*cor de texto */
+    font-size: 20px;
+    /*tamanho do texto*/
+}
+
 /* fim do cabeçaalho*/
 
 
@@ -30,52 +66,85 @@ header h1 {
 /*inicio da seção*/
 
 .arthur {
-    padding: 160px;/*responsa pelo preenchimento */
-    background-color: #0b1d21;/*cor de fundo */
-    display: flex;/*tornando os intens flex lado a lado */
-    justify-content: center;/*justificando os conteudo ao centro */
-    align-items: center;/*responsavel por alinha os itens */
+    padding: 160px;
+    /*responsa pelo preenchimento */
+    background-color: #0b1d21;
+    /*cor de fundo */
+    display: flex;
+    /*tornando os intens flex lado a lado */
+    justify-content: center;
+    /*justificando os conteudo ao centro */
+    align-items: center;
+    /*responsavel por alinha os itens */
     gap: 60px;
 }
 
-.arthur img{
-width: 400px;/*largura da imagem*/
-height: 300px;/*autura da imagem*/
+.arthur img {
+    width: 400px;
+    /*largura da imagem*/
+    height: 300px;
+    /*autura da imagem*/
 }
+
 .arthur p {
-    color: aliceblue;/*cor da letra */
-    font-size: 30px;/*tamanho da letra */
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;/*tipo da fonte */
+    color: aliceblue;
+    /*cor da letra */
+    font-size: 30px;
+    /*tamanho da letra */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /*tipo da fonte */
 }
+
 .arthur span {
-    font-size: 50px;/*tamanho da letra */
-    color: rgb(238, 7, 7);/*cor da letra */
+    font-size: 50px;
+    /*tamanho da letra */
+    color: rgb(238, 7, 7);
+    /*cor da letra */
+
 
 }
+
+.arthur a {
+    text-decoration: none;
+}
+
 /*fim da primeira sessão*/
 
 
 /*inicio da segunda sessão*/
 .manu {
-    background-color:#078a85;/*cor de fundo */
-    padding: 160px;/*responsavel pelo preenchimento*/
-    display: flex;/*tornando os itens flex lado a lado */
-    justify-content: center;/*justifando os conteudo ao centro */
-    align-items: center;/*responssavel por alinha os itens */
-    gap: 30px;/*espaço entre os elementos */
+    background-color: #078a85;
+    /*cor de fundo */
+    padding: 160px;
+    /*responsavel pelo preenchimento*/
+    display: flex;
+    /*tornando os itens flex lado a lado */
+    justify-content: center;
+    /*justifando os conteudo ao centro */
+    align-items: center;
+    /*responssavel por alinha os itens */
+    gap: 30px;
+    /*espaço entre os elementos */
     flex-direction: column;
-    
+
 }
+
 .manu i {
     font-size: 50px;
-    color: rgb(15, 3, 175);/*cor da letra */
-    
+    color: rgb(15, 3, 175);
+    /*cor da letra */
+
 }
+
 .manu p {
-    color: rgb(22, 14, 2);/*cor da letra */
-    font-size: 30px;/*tamanho da letra */
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;/*fonte do texto*/
+    color: rgb(22, 14, 2);
+    /*cor da letra */
+    font-size: 30px;
+    /*tamanho da letra */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /*fonte do texto*/
 }
+
 /*fim da segunda sessão*/
 
 
@@ -83,21 +152,79 @@ height: 300px;/*autura da imagem*/
 
 /*inicio da terceira sessão*/
 .enzo {
-    padding: 150px;/*responssavel pelo preenchimento */
-    background-image: url(img/cartoon-6613804_1280.jpg);/*up img*/
-    background-position: center;/*posição da imagem */
-    background-size: cover;/*preenchimento da imagem */
-    background-repeat: no-repeat;/*desabilitando repetição da imagem */
-    background-attachment: fixed;/*fixação da imagem */
+    padding: 150px;
+    /*responssavel pelo preenchimento */
+    background-image: url(img/comics-1239698_1280.jpg);
+    /*up img*/
+    background-position: center;
+    /*posição da imagem */
+    background-size: cover;
+    /*preenchimento da imagem */
+    background-repeat: no-repeat;
+    /*desabilitando repetição da imagem */
+    background-attachment: fixed;
+    /*fixação da imagem */
+    justify-content: center;
+    display: flex;
+
 }
+
+/*final da terceira sessão */
+
+/* inicio da quarta sessão */
+.sabrina {
+    /*estilizando as div/caixas (total 3)*/
+    padding: 150px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    /*deixando as div lado a lado */
+    gap: 10px;
+    /*espaçamento entre as caixas */
+    justify-content: space-evenly;
+    /*justificando conteudo */
+
+}
+
+.sabrina div {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(23, 27, 27);
+    color: aliceblue;
+}
+
+
+
+
 .enzo button {
     padding: 20px;
     width: 150px;
-    background-color: rgba(0, 0, 0, 0.356);
-    color: rgb(27, 11, 247);
+    background-color: rgba(0, 9, 12, 0.993);
+    color: rgb(6, 156, 202);
+    border-radius: 50px;
+
+
 }
 
 
 footer {
-    background-color: #68baab;
+    padding: 20px;
+    background-color: black;
+    /*cor de fundo */
+    text-align: center;
+    /*aliamento do texto e icone*/
+}
+
+footer p {
+    color: aliceblue;
+    /*cor da letra */
+    font-size: 25px;
+    /* tamanho da letra */
+
+}
+
+footer i {
+    color: aliceblue;
+    /*cor do icone*/
+    font-size: 20px;
+    /*tamanho do icone*/
 }
